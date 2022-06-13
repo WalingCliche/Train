@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+<<<<<<< HEAD:EMO_Demo3/Assets/Pics.meta
+guid: f7437bceead25ef4fa89439f82a9e61d
+folderAsset: yes
+DefaultImporter:
+=======
+<<<<<<<< HEAD:EMO_Demo3/Assets/Pics/NormalToHappy/Sad_Idle.anim.meta
+guid: 12b4fcf8697a2224cbce3b93d5348bc9
+NativeFormatImporter:
+========
+guid: 6b211bdab7f4bde40bcb38530a001d57
+folderAsset: yes
+DefaultImporter:
+>>>>>>>> 4dfe2bf6d0436126168bc4d3ab6637863b6112b6:EMO_Demo3/Assets/Pics.meta
+>>>>>>> 4dfe2bf6d0436126168bc4d3ab6637863b6112b6:EMO_Prototype/Assets/Pics.meta
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

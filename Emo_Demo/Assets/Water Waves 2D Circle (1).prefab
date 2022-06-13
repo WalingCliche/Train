@@ -1,0 +1,719 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8867289322130258691
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2808821529342344149}
+  - component: {fileID: 1831929790736861821}
+  - component: {fileID: 4565079283652987526}
+  - component: {fileID: 767222793538886235}
+  - component: {fileID: 3790609276927654562}
+  - component: {fileID: 7987406315366075707}
+  - component: {fileID: 7780748658288436697}
+  - component: {fileID: 2210556734379761112}
+  - component: {fileID: 8207799681428146778}
+  m_Layer: 0
+  m_Name: Water Waves 2D Circle (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2808821529342344149
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8867289322130258691}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.67, y: 5.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1831929790736861821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8867289322130258691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a758e16fabe0941ae01cbbb6c1ea10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mesh: {fileID: 0}
+  vertices: []
+  uvs: []
+  colors: []
+  normals: []
+  triangles: 
+  triangleCount: 0
+  shape: 1
+  loop: 0
+  showColorProperties: 1
+  showWaveProperties: 1
+  showRandomRipplesProperties: 1
+  showAudioProperties: 1
+  bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 3, y: 3, z: 0}
+  resolution: 50
+  lineWidth: 0
+  lineColor: {r: 1, g: 1, b: 1, a: 0.6}
+  outColor: {r: 1, g: 0.3915094, b: 0.94352007, a: 0.2}
+  inColor: {r: 0.6509804, g: 0.4292453, b: 0.8981659, a: 0.5}
+  HDRColors: 0
+  springConstant: 0.03
+  damping: 0.02
+  springConstant2: 0.1
+  damping2: 0.1
+  randomRipplesFrequency: 0
+  randomRipplesSize: 0.5
+  randomRipplesForce: 1
+  sortingLayer: 0
+  orderInLayer: 0
+  mf: {fileID: 0}
+  mr: {fileID: 0}
+  boxCol: {fileID: 0}
+  circleCol: {fileID: 0}
+  buo: {fileID: 0}
+  materialType: 0
+  useMaterial: {fileID: 2100000, guid: 2cdfaac642bd6124da5029141e826dd8, type: 2}
+  audioEnabled: 1
+  channels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  enterSounds: []
+  exitSounds: []
+  channelToUse: 0
+  points:
+  - position: {x: 3, y: 0}
+    restPosition: {x: 3, y: 0}
+    velocity: {x: 0, y: 0}
+    axis: {x: 1, y: 0}
+    axisFreedom: 90
+  - position: {x: 2.976344, y: 0.37599966}
+    restPosition: {x: 2.976344, y: 0.37599966}
+    velocity: {x: 0, y: 0}
+    axis: {x: 0.9921147, y: 0.12533322}
+    axisFreedom: 90
+  - position: {x: 2.9057496, y: 0.7460696}
+    restPosition: {x: 2.9057496, y: 0.7460696}
+    velocity: {x: 0, y: 0}
+    axis: {x: 0.96858317, y: 0.24868988}
+    axisFreedom: 90
+  - position: {x: 2.7893295, y: 1.1043737}
+    restPosition: {x: 2.7893295, y: 1.1043737}
+    velocity: {x: 0, y: 0}
+    axis: {x: 0.9297765, y: 0.36812457}
+    axisFreedom: 90
+  - position: {x: 2.62892, y: 1.445261}
+    restPosition: {x: 2.62892, y: 1.445261}
+    velocity: {x: 0, y: 0}
+    axis: {x: 0.8763067, y: 0.48175368}
+    axisFreedom: 90
+  - position: {x: 2.427051, y: 1.7633557}
+    restPosition: {x: 2.427051, y: 1.7633557}
+    velocity: {x: 0, y: 0}
+    axis: {x: 0.809017, y: 0.58778524}
+    axisFreedom: 90
+  - position: {x: 2.1869059, y: 2.0536413}
+    restPosition: {x: 2.1869059, y: 2.0536413}
+    velocity: {x: 0, y: 0}
+    axis: {x: 0.7289686, y: 0.6845471}
+    axisFreedom: 90
+  - position: {x: 1.912272, y: 2.3115396}
+    restPosition: {x: 1.912272, y: 2.3115396}
+    velocity: {x: 0, y: 0}
+    axis: {x: 0.637424, y: 0.77051324}
+    axisFreedom: 90
+  - position: {x: 1.6074805, y: 2.5329835}
+    restPosition: {x: 1.6074805, y: 2.5329835}
+    velocity: {x: 0, y: 0}
+    axis: {x: 0.53582686, y: 0.8443279}
+    axisFreedom: 90
+  - position: {x: 1.2773379, y: 2.714481}
+    restPosition: {x: 1.2773379, y: 2.714481}
+    velocity: {x: 0, y: 0}
+    axis: {x: 0.4257793, y: 0.90482706}
+    axisFreedom: 90
+  - position: {x: 0.92705095, y: 2.8531697}
+    restPosition: {x: 0.92705095, y: 2.8531697}
+    velocity: {x: 0, y: 0}
+    axis: {x: 0.30901697, y: 0.95105654}
+    axisFreedom: 90
+  - position: {x: 0.56214404, y: 2.9468617}
+    restPosition: {x: 0.56214404, y: 2.9468617}
+    velocity: {x: 0, y: 0}
+    axis: {x: 0.18738134, y: 0.9822872}
+    axisFreedom: 90
+  - position: {x: 0.1883715, y: 2.99408}
+    restPosition: {x: 0.1883715, y: 2.99408}
+    velocity: {x: 0, y: 0}
+    axis: {x: 0.062790506, y: 0.9980268}
+    axisFreedom: 90
+  - position: {x: -0.1883714, y: 2.99408}
+    restPosition: {x: -0.1883714, y: 2.99408}
+    velocity: {x: 0, y: 0}
+    axis: {x: -0.062790476, y: 0.9980268}
+    axisFreedom: 90
+  - position: {x: -0.5621439, y: 2.9468617}
+    restPosition: {x: -0.5621439, y: 2.9468617}
+    velocity: {x: 0, y: 0}
+    axis: {x: -0.18738131, y: 0.9822872}
+    axisFreedom: 90
+  - position: {x: -0.9270508, y: 2.8531697}
+    restPosition: {x: -0.9270508, y: 2.8531697}
+    velocity: {x: 0, y: 0}
+    axis: {x: -0.30901694, y: 0.95105654}
+    axisFreedom: 90
+  - position: {x: -1.2773376, y: 2.7144814}
+    restPosition: {x: -1.2773376, y: 2.7144814}
+    velocity: {x: 0, y: 0}
+    axis: {x: -0.4257792, y: 0.9048271}
+    axisFreedom: 90
+  - position: {x: -1.6074803, y: 2.532984}
+    restPosition: {x: -1.6074803, y: 2.532984}
+    velocity: {x: 0, y: 0}
+    axis: {x: -0.53582674, y: 0.8443279}
+    axisFreedom: 90
+  - position: {x: -1.912272, y: 2.3115396}
+    restPosition: {x: -1.912272, y: 2.3115396}
+    velocity: {x: 0, y: 0}
+    axis: {x: -0.637424, y: 0.77051324}
+    axisFreedom: 90
+  - position: {x: -2.1869059, y: 2.0536413}
+    restPosition: {x: -2.1869059, y: 2.0536413}
+    velocity: {x: 0, y: 0}
+    axis: {x: -0.7289686, y: 0.6845471}
+    axisFreedom: 90
+  - position: {x: -2.427051, y: 1.7633555}
+    restPosition: {x: -2.427051, y: 1.7633555}
+    velocity: {x: 0, y: 0}
+    axis: {x: -0.809017, y: 0.5877852}
+    axisFreedom: 90
+  - position: {x: -2.62892, y: 1.4452612}
+    restPosition: {x: -2.62892, y: 1.4452612}
+    velocity: {x: 0, y: 0}
+    axis: {x: -0.8763066, y: 0.4817537}
+    axisFreedom: 90
+  - position: {x: -2.7893295, y: 1.1043738}
+    restPosition: {x: -2.7893295, y: 1.1043738}
+    velocity: {x: 0, y: 0}
+    axis: {x: -0.92977643, y: 0.36812457}
+    axisFreedom: 90
+  - position: {x: -2.9057496, y: 0.7460697}
+    restPosition: {x: -2.9057496, y: 0.7460697}
+    velocity: {x: 0, y: 0}
+    axis: {x: -0.96858317, y: 0.2486899}
+    axisFreedom: 90
+  - position: {x: -2.976344, y: 0.37599963}
+    restPosition: {x: -2.976344, y: 0.37599963}
+    velocity: {x: 0, y: 0}
+    axis: {x: -0.9921147, y: 0.1253332}
+    axisFreedom: 90
+  - position: {x: -3, y: -0.00000026226832}
+    restPosition: {x: -3, y: -0.00000026226832}
+    velocity: {x: 0, y: 0}
+    axis: {x: -1, y: -0.00000008742277}
+    axisFreedom: 90
+  - position: {x: -2.976344, y: -0.3759994}
+    restPosition: {x: -2.976344, y: -0.3759994}
+    velocity: {x: 0, y: 0}
+    axis: {x: -0.9921147, y: -0.12533313}
+    axisFreedom: 90
+  - position: {x: -2.9057496, y: -0.74606955}
+    restPosition: {x: -2.9057496, y: -0.74606955}
+    velocity: {x: 0, y: 0}
+    axis: {x: -0.96858317, y: -0.24868985}
+    axisFreedom: 90
+  - position: {x: -2.7893295, y: -1.1043737}
+    restPosition: {x: -2.7893295, y: -1.1043737}
+    velocity: {x: 0, y: 0}
+    axis: {x: -0.9297765, y: -0.36812457}
+    axisFreedom: 90
+  - position: {x: -2.62892, y: -1.4452611}
+    restPosition: {x: -2.62892, y: -1.4452611}
+    velocity: {x: 0, y: 0}
+    axis: {x: -0.8763067, y: -0.4817537}
+    axisFreedom: 90
+  - position: {x: -2.427051, y: -1.7633554}
+    restPosition: {x: -2.427051, y: -1.7633554}
+    velocity: {x: 0, y: 0}
+    axis: {x: -0.80901706, y: -0.5877852}
+    axisFreedom: 90
+  - position: {x: -2.186906, y: -2.0536413}
+    restPosition: {x: -2.186906, y: -2.0536413}
+    velocity: {x: 0, y: 0}
+    axis: {x: -0.7289686, y: -0.68454707}
+    axisFreedom: 90
+  - position: {x: -1.9122725, y: -2.3115392}
+    restPosition: {x: -1.9122725, y: -2.3115392}
+    velocity: {x: 0, y: 0}
+    axis: {x: -0.63742423, y: -0.7705131}
+    axisFreedom: 90
+  - position: {x: -1.607481, y: -2.5329833}
+    restPosition: {x: -1.607481, y: -2.5329833}
+    velocity: {x: 0, y: 0}
+    axis: {x: -0.535827, y: -0.84432775}
+    axisFreedom: 90
+  - position: {x: -1.2773383, y: -2.7144809}
+    restPosition: {x: -1.2773383, y: -2.7144809}
+    velocity: {x: 0, y: 0}
+    axis: {x: -0.42577943, y: -0.90482694}
+    axisFreedom: 90
+  - position: {x: -0.9270513, y: -2.8531694}
+    restPosition: {x: -0.9270513, y: -2.8531694}
+    velocity: {x: 0, y: 0}
+    axis: {x: -0.3090171, y: -0.9510565}
+    axisFreedom: 90
+  - position: {x: -0.5621441, y: -2.9468617}
+    restPosition: {x: -0.5621441, y: -2.9468617}
+    velocity: {x: 0, y: 0}
+    axis: {x: -0.18738137, y: -0.9822872}
+    axisFreedom: 90
+  - position: {x: -0.1883716, y: -2.99408}
+    restPosition: {x: -0.1883716, y: -2.99408}
+    velocity: {x: 0, y: 0}
+    axis: {x: -0.062790535, y: -0.99802667}
+    axisFreedom: 90
+  - position: {x: 0.18837167, y: -2.99408}
+    restPosition: {x: 0.18837167, y: -2.99408}
+    velocity: {x: 0, y: 0}
+    axis: {x: 0.06279056, y: -0.99802667}
+    axisFreedom: 90
+  - position: {x: 0.5621442, y: -2.9468617}
+    restPosition: {x: 0.5621442, y: -2.9468617}
+    velocity: {x: 0, y: 0}
+    axis: {x: 0.1873814, y: -0.9822872}
+    axisFreedom: 90
+  - position: {x: 0.92705137, y: -2.8531694}
+    restPosition: {x: 0.92705137, y: -2.8531694}
+    velocity: {x: 0, y: 0}
+    axis: {x: 0.30901712, y: -0.9510565}
+    axisFreedom: 90
+  - position: {x: 1.2773384, y: -2.7144809}
+    restPosition: {x: 1.2773384, y: -2.7144809}
+    velocity: {x: 0, y: 0}
+    axis: {x: 0.42577946, y: -0.90482694}
+    axisFreedom: 90
+  - position: {x: 1.6074798, y: -2.5329843}
+    restPosition: {x: 1.6074798, y: -2.5329843}
+    velocity: {x: 0, y: 0}
+    axis: {x: 0.5358266, y: -0.8443281}
+    axisFreedom: 90
+  - position: {x: 1.9122716, y: -2.3115401}
+    restPosition: {x: 1.9122716, y: -2.3115401}
+    velocity: {x: 0, y: 0}
+    axis: {x: 0.6374239, y: -0.77051336}
+    axisFreedom: 90
+  - position: {x: 2.1869056, y: -2.0536416}
+    restPosition: {x: 2.1869056, y: -2.0536416}
+    velocity: {x: 0, y: 0}
+    axis: {x: 0.72896856, y: -0.6845472}
+    axisFreedom: 90
+  - position: {x: 2.4270508, y: -1.763356}
+    restPosition: {x: 2.4270508, y: -1.763356}
+    velocity: {x: 0, y: 0}
+    axis: {x: 0.80901694, y: -0.5877853}
+    axisFreedom: 90
+  - position: {x: 2.62892, y: -1.4452611}
+    restPosition: {x: 2.62892, y: -1.4452611}
+    velocity: {x: 0, y: 0}
+    axis: {x: 0.8763067, y: -0.4817537}
+    axisFreedom: 90
+  - position: {x: 2.7893295, y: -1.1043737}
+    restPosition: {x: 2.7893295, y: -1.1043737}
+    velocity: {x: 0, y: 0}
+    axis: {x: 0.9297765, y: -0.36812457}
+    axisFreedom: 90
+  - position: {x: 2.9057496, y: -0.74606943}
+    restPosition: {x: 2.9057496, y: -0.74606943}
+    velocity: {x: 0, y: 0}
+    axis: {x: 0.96858317, y: -0.24868982}
+    axisFreedom: 90
+  - position: {x: 2.976344, y: -0.37599933}
+    restPosition: {x: 2.976344, y: -0.37599933}
+    velocity: {x: 0, y: 0}
+    axis: {x: 0.9921147, y: -0.12533312}
+    axisFreedom: 90
+--- !u!33 &4565079283652987526
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8867289322130258691}
+  m_Mesh: {fileID: 0}
+--- !u!23 &767222793538886235
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8867289322130258691}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 2cdfaac642bd6124da5029141e826dd8, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!253 &3790609276927654562
+BuoyancyEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8867289322130258691}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_SurfaceLevel: 3
+  m_Density: 0.01
+  m_LinearDrag: 5
+  m_AngularDrag: 5
+  m_FlowAngle: 0
+  m_FlowMagnitude: 0
+  m_FlowVariation: 0
+--- !u!58 &7987406315366075707
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8867289322130258691}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 3
+--- !u!82 &7780748658288436697
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8867289322130258691}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!82 &2210556734379761112
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8867289322130258691}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!82 &8207799681428146778
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8867289322130258691}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
